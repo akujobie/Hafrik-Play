@@ -1,0 +1,581 @@
+*{padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+   
+    }
+     
+    /* here is my logo design */
+    .logo img{
+        width: 120px;
+       margin: 20px; 
+    }
+
+    /* here is my menubar design */
+    .logo a{
+        color: beige;
+        position: absolute;
+        top: 30px;
+       
+    }
+   
+    .menubar{
+        display: flex;
+        background-color: rgb(77, 77, 77);
+        border: transparent;
+       
+    }
+    .menubar:hover{
+        display: flex;
+        background-color: rgb(77, 77, 77);
+        border: solid 0.5px;
+        border-color: rgb(160, 160, 167);
+        
+    }
+    .search{
+        margin: 20px 20px;
+        padding: 10px;
+    }
+    #search{
+        width: 500px;
+        height: 6vh;
+        border-radius: 20px;
+      background-color: rgb(141, 137, 137);
+      cursor: auto;
+       color: rgb(94, 94, 92);
+       font-size: 20px;
+    }
+    .search i{
+        position: absolute;
+        left: 650px;
+        top: 43px;
+    }
+    .icon{
+        display: flex;
+        color: beige;
+        position: absolute;
+        right: 0;
+        margin: 30px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .icon a{
+        color: beige;
+        margin: 5px;
+    }
+
+    /* here is my background image design */
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqmGzXgMvBtMQcryio3NYKO_jZq3rR05XWuhIZxFw88dPznKJ137Bzbp2-2rbpWegpjc&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+       
+    }
+
+/* here is my sidebar design */
+.sidebar{
+    width: 4.5%;
+    height: 120vh;
+    background-color: rgb(59, 59, 59);
+    position: sticky;
+    padding: 0px 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.sidebar:hover{
+    width: 15%;
+    height: 120vh;
+    background-color: rgb(53, 52, 52);
+    position: sticky;
+    padding: 0px 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+}
+ul li{
+    margin: 5px 10px ;
+    display: flex;
+    padding: 10px 20px;
+}
+ul li a {
+    color: beige;
+    margin: 1px 10px;
+    padding-left: 0px;
+    padding-right: 24px;
+ 
+}
+.sidebar span{
+    color: beige;
+}
+p{
+    color: rgb(10, 126, 10);
+}
+/* here is my body design */
+.bodybar1{
+    background-color: rgb(115, 155, 75);
+    width: 1050px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border-radius: 20px;
+}
+.bodybar2{
+    background-color: rgb(48, 102, 95);
+    width: 950px;
+    height: 300px;
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    border-radius: 20px;
+}
+.body1{
+    background-image: url(https://thenativemag.com/wp-content/uploads/2023/10/FI-46.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: transparent;
+    border-radius: 20px;
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    color: rgb(253, 252, 240);
+   
+}
+.logoimg img{
+    width: 100px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.song{
+    position: absolute;
+    bottom: 18%;
+    left: 7%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dots{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+}
+.body2bar{
+    padding: 10px;
+    border: transparent;
+    position: absolute;
+    bottom: -35%;
+    left: 18%;
+    width: 1070px;
+    height: 220px;
+    color: rgb(253, 252, 240);
+    font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.body2bar:hover{
+    border: solid 0.5px;
+    border-color: rgb(1, 1, 107);
+    border-radius: 20px;
+    position: absolute;
+    bottom: -35%;
+    left: 18%;
+    width: 1070px;
+    height: 220px;
+    padding: 10px;
+}
+
+.box1{
+   
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+    color: rgb(253, 252, 240); 
+    font-size: 15px;
+}
+.Nano{
+    color: rgb(12, 12, 12);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+ 
+}
+.box2{
+   
+    position: absolute;
+    bottom: 7%;
+    left: 22%;
+    color: rgb(253, 252, 240);
+    font-size: 15px;
+}
+.box3{
+    
+    position: absolute;
+    bottom: 7%;
+    left: 42%;
+    color: rgb(253, 252, 240);
+    font-size: 15px;
+}
+.box4{
+    
+    position: absolute;
+    bottom: 7%;
+    left: 62%;
+    color: rgb(253, 252, 240);
+    font-size: 15px;
+}
+.box5{
+    
+    position: absolute;
+    bottom: 7%;
+    left: 82%;
+    color: rgb(253, 252, 240);
+    font-size: 15px;
+}
+
+/* Footer design */
+
+.footer:hover{
+   border: solid 0.5px;
+   border-color: azure;
+}
+
+/* Here is my Responsiveness design */
+
+/* Design for tablets from 601×962 to 1280×800 */
+@media (min-width:601px) and (max-width:1280px) {
+    *{padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        list-style-type: none;
+        }
+/* here is my logo design */
+.logo img{
+    width: 80px;
+   margin: 30px 20px; 
+}
+/* here is my menubar design */
+.logo a{
+    color: beige;
+    position: absolute;
+    top: 32px;
+   
+}
+.search{
+    margin: 20px 5px;
+    padding: 10px;
+}
+#search{
+    width: 300px;
+    height: 6vh;
+    border-radius: 20px;
+  background-color: rgb(141, 137, 137);
+  cursor: auto;
+   color: rgb(94, 94, 92);
+   font-size: 15px;
+}
+.search i{
+    position: absolute;
+    left: 400px;
+    top: 42px;
+}
+/* here is my sidebar design */
+.sidebar{
+    width: 5%;
+    height: 120vh;
+    background-color: rgb(59, 59, 59);
+    position: sticky;
+    padding: 0px 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.sidebar:hover{
+    width: 15%;
+    height: 120vh;
+    background-color: rgb(53, 52, 52);
+    position: sticky;
+    padding: 0px 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+}
+ul li{
+    margin: 5px 10px ;
+    display: flex;
+    padding: 10px 5px;
+}
+ul li a {
+    color: beige;
+    margin: 1px 1px;
+    padding-left: 0px;
+    padding-right: 20px;
+ 
+}
+/* here is my body design */
+.bodybar1{
+    background-color: rgb(115, 155, 75);
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    border-radius: 20px;
+}
+.bodybar2{
+    background-color: rgb(48, 102, 95);
+    width: 450px;
+    height: 320px;
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.body1{
+    background-image: url(https://thenativemag.com/wp-content/uploads/2023/10/FI-46.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: transparent;
+    border-radius: 20px;
+    width: 400px;
+    height: 390px;
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    color: rgb(253, 252, 240);
+   
+}
+.body2bar{
+    padding: 10px;
+    border: transparent;
+    position: absolute;
+    bottom: -35%;
+    left: 22%;
+    width: 490px;
+    height: 150px;
+    color: rgb(253, 252, 240);
+    font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.body2bar:hover{
+    border: solid 0.5px;
+    border-color: rgb(1, 1, 107);
+    border-radius: 20px;
+    position: absolute;
+    bottom: -35%;
+    left: 22%;
+    width: 490px;
+    height: 150px;
+    padding: 10px;
+}
+.body2bar h1{
+    position: absolute;
+    left: 60px;
+}
+.box1 img{
+    width: 90px;
+}
+.box2 img{
+    width: 90px;
+}
+.box3 img{
+    width: 90px;
+}
+.box4 img{
+    width: 90px;
+}
+.box5 img{
+    width: 90px; height: 90px;   
+}
+/* Footer design */
+
+.footer img{
+    width: 655px;
+    height: 50px;
+ }    
+}
+
+/* Design for mobiles less than width 600px */
+@media  (max-width:600px) {
+    *{padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        list-style-type: none;
+        }
+/* here is my logo design */
+.logo img{
+    width: 50px;
+   margin: 25px 20px; 
+}
+/* here is my menubar design */
+.menubar{
+    height: 70px;
+}
+.logo a{
+    color: beige;
+    position: absolute;
+    top: 25px;
+   
+}
+.search{
+    margin: 14px 1px;
+    padding: 7px;
+}
+#search{
+    width: 200px;
+    height: 4vh;
+    border-radius: 20px;
+  background-color: rgb(141, 137, 137);
+   cursor: auto;
+   color: rgb(94, 94, 92);
+   font-size: 10px;
+}
+.search i{
+    position: absolute;
+    left: 275px;
+    top: 25px;
+}
+.icon{
+    font-size: 11px;
+   }
+/* here is my sidebar design */
+.sidebar{
+    width: 7%;
+    height: 120vh;
+    background-color: rgb(59, 59, 59);
+    position: sticky;
+    padding: 0px 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.sidebar:hover{
+    width: 20%;
+    height: 120vh;
+    background-color: rgb(53, 52, 52);
+    position: sticky;
+    padding: 0px 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding-top: 15px;
+}
+ul li{
+    margin: 5px 10px ;
+    display: flex;
+    padding: 10px 0px;
+}
+ul li a {
+    color: beige;
+    margin: 1px 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+ 
+}
+/* here is my body design */
+.bodybar1{
+    background-color: rgb(115, 155, 75);
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    border-radius: 20px;
+}
+.bodybar2{
+    background-color: rgb(48, 102, 95);
+    width: 310px;
+    height: 320px;
+    position: absolute;
+    top: -15%;
+    left: 6%;
+    border-radius: 20px;
+}
+
+.body1{
+    background-image: url(https://thenativemag.com/wp-content/uploads/2023/10/FI-46.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: transparent;
+    border-radius: 20px;
+    width: 265px;
+    height: 390px;
+    position: absolute;
+    top: -15%;
+    left: 7%;
+    color: rgb(253, 252, 240);
+   
+}
+
+.logoimg img{
+    width: 50px;
+   margin: 20px 10px; 
+}
+.song{
+    font-size: 12px;
+}
+.dots {
+    position: absolute;
+    bottom: 9%;
+    right: 40%;
+    font-size: 10px;
+}
+.body2bar{
+    padding: 10px;
+    border: transparent;
+    position: absolute;
+    bottom: -30%;
+    left: 26%;
+    width: 330px;
+    height: 150px;
+    color: rgb(253, 252, 240);
+    font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.body2bar:hover{
+    border: solid 0.5px;
+    border-color: rgb(1, 1, 107);
+    border-radius: 20px;
+    position: absolute;
+    bottom: -30%;
+    left: 26%;
+    width: 330px;
+    height: 150px;
+    padding: 10px;
+}
+.body2bar h1{
+    position: absolute;
+    left: 20px;
+    
+}
+.box1 img{
+    width: 65px;
+
+}
+.box2 img{
+    width: 65px;
+}
+.box3 img{
+    width: 65px;
+}
+.box4 img{
+    width: 65px;
+}
+.box5 img{
+    width: 65px; height: 65px;   
+}
+.Nano{
+    font-size: 8px;
+}
+.footer img{
+    width: 482px;
+    height: 50px;
+ }   
+}
+
